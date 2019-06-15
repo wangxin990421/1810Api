@@ -41,11 +41,12 @@ return [
     |
     */
 
-    'disks' => [
+     'disks' => [
 
         'local' => [
             'driver' => 'local',
-            'root' => storage_path('app'),
+//            'root' => storage_path('app'),
+            'root'=>public_path('uploads'),
         ],
 
         'public' => [
